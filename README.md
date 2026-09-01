@@ -134,4 +134,4 @@ API keys are only ever read from environment variables (including ones loaded fr
 
 ## License
 
-No license has been specified for this project yet.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
