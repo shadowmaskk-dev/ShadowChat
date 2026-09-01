@@ -1,0 +1,21 @@
+# Secrets -- never commit real keys. .env.example (all values left blank)
+# is the only tracked template; anything else matching .env* is not.
+.env
+.env.*
+!.env.example
+
+# Conversation data (see shadowchat_app/storage.py) -- saved chats may
+# contain personal or otherwise sensitive conversation content.
+.shadowchat_chats/
+
+# Input history (prompt_toolkit) -- recalls past typed messages across
+# sessions; same sensitivity concern as conversation data above.
+.shadowchat_history/
+
+# Cache files
+.cache/
+*.cache
+
+# Python cache files
+__pycache__/
+*.py[cod]
